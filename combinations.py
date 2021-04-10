@@ -18,7 +18,7 @@ def bks_conj(inp, ant, cons, tnorm, implication):
 	return output
 
 
-def bks_imp(inp, ant, cons, implication):
+def bks_imp(inp, ant, cons, tnorm, implication):
 	output = []
 
 	for j in range(len(cons)):
@@ -35,7 +35,7 @@ def bks_imp(inp, ant, cons, implication):
 	return output
 
 
-def cri_conj(inp, ant, cons, tnorm):
+def cri_conj(inp, ant, cons, tnorm, implication):
 	output = []
 
 	for j in range(len(cons)):
