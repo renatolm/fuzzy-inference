@@ -6,3 +6,6 @@ def minimum(x,y):
 
 def product(x,y):
 	return x*y
+
+def lukasiewicz(x,y):
+    return max(0,x+y-1)

@@ -2,8 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.gitignore
+*.ipynb
 
 
 # Experiments results folder
 experiments/*
+
+# Plots generated
+*.png
